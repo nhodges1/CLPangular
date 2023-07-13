@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
-import { Todo } from './todo';
+
+export class Todo{
+  name: string;
+}
 
 @Component({
   selector: 'app-todo',
