@@ -1,0 +1,23 @@
+.container {
+    text-align: center;
+    background-color: gainsboro;
+    border: solid 1px black;
+}
+
+.up {
+    color: black;
+    margin-right: 2px;
+}
+
+.up:hover {
+    color: white;
+}
+
+.down {
+    color: black;
+    margin-left: 2px;
+}
+
+.down:hover {
+    color: white;
+}
