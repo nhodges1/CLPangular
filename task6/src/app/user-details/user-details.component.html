@@ -1,0 +1,25 @@
+<br>
+<div class="container">
+    <br>
+    <h1>User Details</h1>  
+    <br>  
+    <table class="table table-striped-columns">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let user of users">
+            <td>{{ user.id }}</td>
+            <td>{{ user.name }}</td>
+            <td>{{ user.email }}</td>
+            <td>{{ user.phone }}</td>
+        </tr>
+        </tbody>
+    </table>
+    <br>
+</div>
