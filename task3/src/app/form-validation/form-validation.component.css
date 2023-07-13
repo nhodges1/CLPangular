@@ -1,0 +1,13 @@
+.container {
+    text-align: center;
+    background-color: gainsboro;
+    border: solid 1px black;
+}
+
+.container1 {
+    text-align: center;
+}
+
+.submit {
+    color: black;
+}
