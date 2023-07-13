@@ -1,0 +1,23 @@
+<br>
+<div class="container">    
+    <br>
+    <h1>Image Uploader</h1>
+    <br>
+    <div class="image-preview">
+        <img [src]="selectedImage" *ngIf="selectedImage" [ngClass]="{'circular-image': selectedImage}">
+        <p *ngIf="!selectedImage">No image selected.</p>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-4">
+        </div>
+        <div class="col-lg-4 col-lg-offset-4">
+            <div class="input-group">
+                <input type="file" accept="image/*" (change)="onFileSelected($event)" class="form-control search">
+            </div>
+        </div>
+        <div class="col-lg-4 col-lg-offset-4">
+        </div>
+    </div>
+    <br>
+</div>

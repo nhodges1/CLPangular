@@ -1,0 +1,18 @@
+.container {
+    text-align: center;
+    background-color: gainsboro;
+    border: solid 1px black;
+}
+
+.circular-image {
+    border-radius: 50%;
+}
+
+.search {
+    width: 25%;
+    text-align: center;
+}
+
+.search1 {
+    text-align: center;
+}
